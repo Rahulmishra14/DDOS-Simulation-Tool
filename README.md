@@ -62,6 +62,11 @@ The core functionalities of the tool include:
 - **Input Validation**: Validates user inputs to ensure proper execution.
 - **Asynchronous Flood Functions**: Implements TCP and asynchronous HTTP/HTTPS flood methods.
 
+## 💻 Results
+The CPU Utilization may go upto 100% (based on the strength of the server).
+<img src="images/CPU.png" alt="architecture Diagram" >
+<img src="images/Not Respond.png" alt="architecture Diagram" >
+
 <div>
 <a href="https://www.python.org/" title="Python"><img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="50px" height="21px"></a>
 </div>
