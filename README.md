@@ -4,16 +4,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/kudzaiprichard/realestate-backend">
+  <a href="https://github.com/Rahulmishra14/DDOS-Simulation-Tool">
     <img src="images/ddos.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Distributed Denial Of Service Attack</h3>
 
-  <p align="center">
-    A simple python packet filtering firewall
-    <br />
-  </p>
   <br/>
 </div>
 
@@ -45,6 +41,27 @@ A DDoS attack uses multiple servers and Internet connections to flood the target
 ### Built With
 Wrote the firewall using `python3`
 
+### ⚙️ How to Use the Tool
+1. **Enter Target**: Input the target IP address or domain name.
+2. **Specify Port**: Enter a port number (1-65535).
+3. **Choose Attack Type**: Select between TCP, HTTP, or HTTPS.
+4. **Define Payload**: Specify the data you want to send during the attack.
+5. **Set Interval**: Enter the interval (in seconds) for sending the payload.
+6. **Determine Number of Threads**: Decide how many simultaneous threads you want to run.
+7. **Start the Attack**: Click the **Start Attack 🚀** button to initiate the simulation.
+8. **Stop the Attack**: Click the **Stop Attack 🛑** button to halt all operations.
+
+### ⚠️ Important Notes
+- **Responsible Use**: This tool is for educational purposes only. **Never** use it against unauthorized targets.
+- **Learning Resource**: Use this tool to understand the impact of DDoS attacks and improve your cybersecurity skills.
+
+## 💻 Code Breakdown
+The core functionalities of the tool include:
+- **GUI Setup**: Built with Tkinter for an intuitive user interface.
+- **Thread Management**: Handles multiple threads to simulate simultaneous requests.
+- **Input Validation**: Validates user inputs to ensure proper execution.
+- **Asynchronous Flood Functions**: Implements TCP and asynchronous HTTP/HTTPS flood methods.
+
 <div>
 <a href="https://www.python.org/" title="Python"><img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="50px" height="21px"></a>
 </div>
@@ -57,6 +74,12 @@ Wrote the firewall using `python3`
 
 ### Prerequisites
 
+Ensure you have Python installed on your system along with the following packages. Install them using the following command:
+
+```bash
+pip install tkinter requests aiohttp
+```
+
 You should have the below software installed in your pc :
 * python3
 * and your preferred IDE or text editor
@@ -65,19 +88,10 @@ You should have the below software installed in your pc :
 ### Installation
 
 1. Clone the repo
-
-   ```sh
    git clone https://github.com/Rahulmishra14/DDOS-Simulation-Tool.git
-   ```
 
 2. Open project in IDE or text editor
 
-### Dependencies
-
-Install the dependencies using the `requirements.txt` file:
-
-```bash
-pip install -r requirements.txt
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
